@@ -13,6 +13,7 @@ nav {
 	padding-top: 10px;	
 	box-shadow: 0px 0px 5px gray;
 	background-color: white;
+	z-index: 999;
 }
 
 nav .left-buttons {
@@ -138,4 +139,44 @@ article h2 {
 
 .article-par p {
 	margin-bottom: 15px;
+	opacity: 0.9;
+}
+
+.article-par h2 {
+	border: none;
+	margin-bottom: 25px;
+	margin-top: 25px;
+}
+
+.inflation-container {
+	position: relative;
+}
+
+.inflation-container img {
+	height: 600px;
+	border-top: 1px solid #bfbfbf;
+	border-bottom: 1px solid #bfbfbf;
+}
+
+.inflation-container strong {
+	font-weight: bolder;
+}
+
+/* inflation container images info */
+.inf {
+	font-size: 0.8em;
+}
+
+.inf-1 {
+	position: absolute;
+	width: 200px;
+	top: 26%;
+	left: 0;
+}
+
+.inf-2 {
+	position: absolute;
+	width: 200px;
+	top: 26%;
+	left: 40%;
 }
