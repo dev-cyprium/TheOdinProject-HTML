@@ -1,0 +1,161 @@
+/* include fonts */
+@font-face {
+	font-family: pageFont;
+	src: url("modern.ttf");
+}
+
+body{ 
+	padding: 0; 
+	margin: 0;
+	min-width: 950px;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+header, #content, footer {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* header */
+header {
+	margin-top: 30px;
+	display: flex;
+	width: 690px;
+	height: 74px;
+	margin-bottom: 10px;
+}
+
+header img {
+	padding: 10px;
+}
+
+.account-panel {
+	align-self: flex-end;
+	margin-left: auto;
+	font-size: 1.2em;
+}
+
+.account-panel a {
+	opacity: 0.8;
+	text-decoration: none;
+	color: black;
+
+}
+
+.highlited {
+	font-weight: bold;
+}
+
+/* Content */
+
+#content {
+	display: flex;
+	height: 800px;
+	width: 690px;
+	box-shadow: 0px 0px 10px grey;
+	margin-bottom: 20px;
+}
+
+#content h1,h2 {
+	font-family: pageFont;
+	font-weight: normal;
+}
+
+#content #form {
+	padding-left: 50px;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	margin: 20px 0;
+	border-right: 3px solid #f5f5f5;
+	width: 400px;
+}
+
+#content aside {
+	margin: 20px 0;
+	width: 290px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+/* form */
+form label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+form input[type="text"], form input[type="email"], form input[type="password"] {
+	background-color: white;
+	height: 25px;
+	width: 300px;
+	border: 1px solid #DBD9D9;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+form input[type="submit"] {
+	color: white;
+	background-color: #80bfff;
+	border: 1px solid #80bfff;
+	padding: 10px;
+}
+
+form label[for="checkbox"] {
+	display: inline;
+}
+
+form .form-part {
+	margin-bottom: 20px;
+}
+
+/* sidebar */
+#content aside h2 {
+	font-size: 1.2em;
+	text-align: center;
+}
+
+#content aside li {
+	font-size: 0.8em;
+}
+
+.list-wrapper {
+	opacity: 0.7;
+	padding: 5px;
+	margin-top: 35px;
+	background-color: #f5f5f5;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+/* footer */
+footer {
+	height: 200px;
+	width: 690px;
+}
+
+footer ul {
+	list-style: none;
+	opacity: 0.7;
+}
+
+footer a {
+	text-decoration: none;
+	color: black;
+}
+
+footer ul li{
+	display: inline;
+}
+
+footer ul li:not(:last-child) {
+	border-right: 1px solid gray;
+	padding: 0 5px;
+}
+
+#bottom-page-small {
+	text-align: center;
+	font-size: 0.7em;
+}
