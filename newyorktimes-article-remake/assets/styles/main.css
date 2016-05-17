@@ -1,5 +1,7 @@
 body {
 	margin-left: 20px;
+	overflow-x: hidden;
+	overflow-y: scroll;
 }
 
 /* Navigation */
@@ -150,10 +152,14 @@ article h2 {
 
 .inflation-container {
 	position: relative;
+	width: 800px;
+	margin-bottom: 40px;
 }
 
 .inflation-container img {
 	height: 600px;
+	width: 1000px;
+	
 	border-top: 1px solid #bfbfbf;
 	border-bottom: 1px solid #bfbfbf;
 }
@@ -164,19 +170,66 @@ article h2 {
 
 /* inflation container images info */
 .inf {
+	position: absolute;
+	width: 200px;
 	font-size: 0.8em;
 }
 
 .inf-1 {
-	position: absolute;
-	width: 200px;
 	top: 26%;
 	left: 0;
 }
 
 .inf-2 {
-	position: absolute;
-	width: 200px;
 	top: 26%;
-	left: 40%;
+	left: 32%;
+}
+
+.inf-3 {
+	top: 26%;
+	left: 64%;
+}
+
+.inf-4 {
+	top: 26%;
+	left: 96%;
+}
+
+.inf-5 {
+	top: 72%;
+	left: 0;
+}
+
+.inf-6 {
+	top: 72%;
+	left: 32%;
+}
+
+.inf-7 {
+	top: 72%;
+	left: 64%;
+}
+
+.inf-8 {
+	top: 72%;
+	left: 96%;
+}
+
+.inf-title {
+	position: absolute;
+	opacity: 0.7;
+	left: 0;
+	bottom: -40px;
+}
+
+.iframe-container {
+	position: relative;
+	width: 800px;
+	left: -25px;
+	margin-bottom: 40px;
+}
+
+.iframe-container p {
+	opacity: 0.7;
+	font-size: 0.75em;
 }
