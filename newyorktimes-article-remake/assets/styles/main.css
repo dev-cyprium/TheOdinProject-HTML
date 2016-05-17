@@ -76,10 +76,39 @@ nav .header-right .button-wrap {
 	background-color: #4d79ff;
 }
 
+/* Misc */
+h1.cursive {
+	font-family: cursive;
+}
+
 /* content */
 article {
-	background-color: lightblue;
 	margin-top: 100px;
 	width: 100%;
-	height: 2000px;
+}
+
+article h1 {
+	font-size: 1.8em;
+	font-weight: bold;
+	margin-top: 50px;
+}
+
+article h2 {
+	border-top: 1px solid black;
+	font-weight: bolder;
+}
+
+.info-container {
+	display: flex;
+	width: 100%;
+	height: 70px;
+	align-items: center;
+	margin-top: 10px;
+	border-top: 1px solid #bfbfbf;
+	border-bottom: 1px solid #bfbfbf;
+}
+
+.item {
+	margin-right: 20px;
+	line-height: 50px;
 }
