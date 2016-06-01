@@ -1,0 +1,37 @@
+/* Reset styles */
+@import "reset.css";
+
+
+/* navigation */
+nav {
+	margin-top: 30px;
+}
+
+.container-flex {
+	display: flex;
+	margin-left: 20%;
+	margin-right: 20%;
+	border: 1px solid gray;
+	border-radius: 5px;
+}
+
+.item {
+	/* gradient */
+	background: #c2c2c2;
+	background: -moz-linear-gradient(top, #c2c2c2 0%, #757575 50%, #636363 53%, #575757 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, #c2c2c2), color-stop(50%, #757575), color-stop(53%, #636363), color-stop(100%, #575757));
+	background: -webkit-linear-gradient(top, #c2c2c2 0%, #757575 50%, #636363 53%, #575757 100%);
+	background: -o-linear-gradient(top, #c2c2c2 0%, #757575 50%, #636363 53%, #575757 100%);
+	background: -ms-linear-gradient(top, #c2c2c2 0%, #757575 50%, #636363 53%, #575757 100%);
+	background: linear-gradient(to bottom, #c2c2c2 0%, #757575 50%, #636363 53%, #575757 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c2c2c2', endColorstr='#575757', GradientType=0 );
+	
+	
+	height: 40px;
+	border-right: 1px solid black;
+	
+	color: white;
+	text-align: center;
+	line-height: 40px;
+	width: 120px;
+}
