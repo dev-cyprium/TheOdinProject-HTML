@@ -1,0 +1,44 @@
+#site-logo, #site-logo-s {
+	font-size: 2.8em;
+	background-color: #ff1a1a;
+	font-weight: 800;
+	color: white;
+}
+
+#site-logo-s {
+	display: none;
+}
+
+.navbar {
+	border-bottom: 2px solid white;
+}
+
+.navbar-nav a {
+	color: white !important;
+	font-weight: 600 !important;
+	font-size: 1.2em;
+}
+
+.navbar-nav a:hover {
+	color: #a6a6a6 !important;
+}
+
+.navbar-nav li:nth-child(9),
+  .navbar-nav li:nth-child(10),
+  .navbar-nav li:nth-child(11){
+	border-right: 1px solid gray;
+}
+
+@media all and (max-width: 1350px) {
+	#site-logo {
+		display: none;
+	}
+	#site-logo-s {
+		display: block;
+	}
+	.navbar-nav a {
+		font-size: 0.7em;
+	}
+}
+
+
