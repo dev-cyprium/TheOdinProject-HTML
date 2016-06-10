@@ -147,14 +147,23 @@ h1.featured {
 
 .bg-orange {
 	background-color: #ff1a1a;
-	height: 8px;
+	height: 2%;
 }
 
 #magasine-title {
 	position: relative;
-	transform: translateY(-150%);
+	transform: translateY(-120%);
 	text-align: center;
 	color: #ff1a1a;
+}
+
+#magasine-articles .col-md-3{
+	border-left: 1px solid gray;
+}
+
+#magasine-articles {
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
 }
 
 @media all and (max-width: 1350px) {
@@ -169,4 +178,62 @@ h1.featured {
 	}
 }
 
+#bigimage {
+	background-color: #333333;
+}
 
+#bigimage h1 {
+	color: #809fff;
+	font-size: 1.8em;
+}
+
+#bigimage h2 {
+	color: white;
+	font-size: 1.3em;
+}
+
+#bigimage p {
+	color: white;
+}
+
+#magasine-issue h1,
+#magasine-issue h2{
+	text-align: center;
+	font-size: 1.8em;
+}
+
+#magasine-issue h2 {
+	background-color: #ff1a1a;
+	color: white;
+}
+
+#magasine-issue h1 {
+	font-size: 2.2em;
+	text-transform: uppercase;
+}
+
+#cover-add h1 {
+	text-transform: uppercase;
+	text-decoration: underline;
+	text-align: left;
+}
+
+#cover-add h3 {
+	color: #ff1a1a;
+}
+
+#cover-add ul {
+	padding-left: 15px;
+	list-style: square;
+	color: #ff1a1a;
+	font-size: 1.2em;
+	font-weight: 600;
+}
+
+#cover-add ul li:not(:last-child) {
+	border-bottom: 1px solid gray;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+#cover-add ul li { padding-top: 15px; }
