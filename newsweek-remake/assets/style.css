@@ -237,3 +237,47 @@ h1.featured {
 }
 
 #cover-add ul li { padding-top: 15px; }
+
+footer {
+	border-top: 5px solid #ff1a1a;
+}
+
+footer .container-fluid {
+	background-color: #333333;
+}
+
+footer a {
+	font-size: 1.2em;
+	color: white;
+	text-decoration: none;
+}
+
+footer ul li {
+	margin-bottom: 5px;
+}
+
+footer a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+footer .col-md-4 {
+	border-right: 1px solid gray;
+}
+
+footer form {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid gray;
+}
+
+footer h2 {
+	color: white;
+	font-size: 2em;
+}
+
+footer img {
+	width: 25%;
+	height: auto;
+	float: left;
+}
