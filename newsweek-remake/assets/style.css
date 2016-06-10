@@ -29,6 +29,134 @@
 	border-right: 1px solid gray;
 }
 
+body {
+	padding-top: 50px;
+}
+
+#first-part h3 {
+	color: #ff1a1a;
+}
+
+#first-part ul {
+	padding-left: 15px;
+	list-style: square;
+	color: #ff1a1a;
+	font-size: 1.2em;
+	font-weight: 600;
+}
+
+.black { color: black; }
+
+#first-part ul li:not(:last-child) {
+	border-bottom: 1px solid gray;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+#first-part ul li { padding-top: 15px; }
+#first-part img { border-bottom: 5px solid #ff1a1a; }
+#first-part {
+	margin-bottom: 30px;
+	border-bottom: 1px solid gray;
+}
+
+#second-part > .row > .col-md-4:first-child {
+	border-right: 1px solid gray;
+}
+.sponsor-container {
+	background-color: #e6f2ff;
+	border: 1px solid #99ccff;
+}
+#second-part h1 {
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+}
+#second-part p {
+	font-size: 1.2em;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#second-part a {
+	display: block;
+	text-align: center;
+}
+#second-part {
+	margin-bottom: 20px;
+}
+
+#third-part .col-md-3 {
+	border-top: 1px solid gray;
+	height: 520px;
+	overflow: hidden;
+}
+
+#third-part .col-md-3:not(:last-child) {
+	border-right: 1px solid gray;
+}
+
+#third-part .mini .col-md-3 {
+	height: 250px !important;
+}
+
+#third-part { 
+	border-bottom: 1px solid gray;
+	margin-bottom: 40px;
+}
+
+.block-center {
+	display: block;
+	background-color: gray !important;
+	border: 1px solid gray !important;
+}
+
+.margin-top-offset{ margin-top: 10px; }
+.mini-news-container {
+	padding: 10px;
+}
+
+h1.mini-heading {
+	text-align: center;
+	font-size: 1.8em;
+}
+
+p.mini-info {
+	font-size: 1.2em;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+h4.category { 
+	text-align: center;
+	color: #ff1a1a;
+}
+h4.sponsor {
+	text-align: center;
+	color: #3399ff;
+}
+
+.featured { 
+	display: block;
+	text-align: center; 
+}
+p.featured { font-size: 1.5em; }
+h1.featured { 
+	font-size: 4.0em; 
+	font-weight: bold;
+}
+
+.bg-orange {
+	background-color: #ff1a1a;
+	height: 8px;
+}
+
+#magasine-title {
+	position: relative;
+	transform: translateY(-150%);
+	text-align: center;
+	color: #ff1a1a;
+}
+
 @media all and (max-width: 1350px) {
 	#site-logo {
 		display: none;
